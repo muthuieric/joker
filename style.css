@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 42px;
+    margin:0px 100px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: red;
+    color: white;
+  }
+  .home-section {
+    padding: 50px;
+    text-align: center;
+    background-color:black;
+    color: white;
+  }
+  .about-section {
+    padding: 50px;
+    background-color:black;
+    color:white;
+  }
+
+.skill-section {
+  padding: 50px;
+  background-color:black;
+  color: white;
+}
+.nav{
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 15%;
+}
+
+h1{
+  font-size: 50px;
+  font-family:sans-serif;
+  color: red;
+}
