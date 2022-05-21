@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+}
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 42px;
+  margin: 0px 100px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background:red;
+  color: white;
+}
+
+
+
+/* Main content */
+.main {
+  margin-top: 20px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+  .home-section {
+    padding: 50px;
+    text-align: center;
+    background-color:black;
+    color: white;
+  }
+  .about-section {
+    padding: 50px;
+    background-color:black;
+    color:white;
+  }
+
+.skill-section {
+  padding: 50px;
+  background-color:black;
+  color: white;
+}
+.nav{
+  display:flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 15%;
+}
+
+h1{
+  font-size: 50px;
+  font-family:sans-serif;
+  color: red;
+}
+h2{
+  font-size: 40px;
+  font-family:sans-serif;
+  color: red;
+}
+footer{
+  background-color:black;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  
+}
